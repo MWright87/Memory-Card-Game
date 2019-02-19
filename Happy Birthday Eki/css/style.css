@@ -1,0 +1,189 @@
+/* Formatting for landing page */
+
+body {
+  background-color: #050505;
+  text-align: center;
+}
+
+.fireworks {
+  background: url("http://i482.photobucket.com/albums/rr188/evanescenta/fireworks_1.jpg")
+    no-repeat center;
+  background-size: cover;
+  color: #dcc6e0;
+  text-align: center;
+  min-height: 95%;
+  margin: 2% 1% 1% 1%;
+  box-shadow: 0 0 20px #dcc6e0;
+  border-radius: 15px;
+}
+
+.dark-layer {
+  background: rgba(5, 5, 5, 0.85);
+  background-size: cover;
+  padding: 5%;
+  border-radius: 15px;
+}
+
+h1 {
+  font: 2.5em "Coda", sans-serif;
+  padding: 5% 0 5% 0;
+}
+
+.button-menu {
+  position: relative;
+  background: rgba(5, 5, 5, 0.85);
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0.5%;
+  box-shadow: 0 0 20px #dcc6e0;
+  border-radius: 15px;
+}
+
+input[type="submit"],
+/* Easy, Normal or Hard mode selector for the game */ button {
+  /* Audio control buttons */
+  display: inline-block;
+  background-color: #aaa;
+  font: bold 2em "Iceland", sans-serif;
+  color: #050505;
+  text-align: center;
+  text-decoration: none;
+  margin: 1% 2% 1% 2%;
+  padding: 1%;
+  border: none;
+  box-shadow: 0 0 20px #dcc6e0;
+  border-radius: 15px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+input[type="submit"]:hover,
+#fake {
+  background-color: #050505;
+  color: #bbb;
+}
+
+#fake {
+  /* Start game! or Play again! message made to look like a fake button */
+  cursor: auto;
+}
+
+/* Additional formatting for "display objective" webpage */
+
+.image-2018 {
+  position: relative;
+  max-width: 15%;
+  margin: 0 0 10% 0;
+  box-shadow: 0 0 20px #dcc6e0;
+  border-radius: 15px;
+}
+
+/* Additional formatting for "play the game" webpage */
+
+table,
+tr,
+td {
+  table-layout: fixed;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table {
+  width: 90%;
+  height: 90%;
+}
+
+td {
+  font-size: 0; /* Index to the random image associated with a certain cell is inserted as hidden text inside the cell*/
+}
+
+.card-image {
+  position: relative;
+  max-width: 90%;
+  margin: 2% 0 2% 0;
+  box-shadow: 0 0 20px #dcc6e0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+/* Additional formatting for "reward message" webpage */
+
+.container {
+  /* Contains happy new year message and welcome to 2018 image */
+  display: inline-block;
+}
+
+.message-container {
+  float: left;
+  width: 50%;
+}
+
+.welcome-container {
+  float: right;
+  width: 50%;
+}
+
+.welcome-image {
+  position: relative;
+  left: 10%;
+  max-height: 95%;
+  max-width: 95%;
+  opacity: 0.8;
+}
+
+.play-audio {
+  background: url("http://i482.photobucket.com/albums/rr188/evanescenta/play_off.png")
+    no-repeat center;
+}
+
+.pause-audio {
+  background: url("http://i482.photobucket.com/albums/rr188/evanescenta/pause_off.png")
+    no-repeat center;
+}
+
+.increase-audio {
+  background: url("http://i482.photobucket.com/albums/rr188/evanescenta/vol_up_off.png")
+    no-repeat center;
+}
+
+.decrease-audio {
+  background: url("http://i482.photobucket.com/albums/rr188/evanescenta/vol_down_off.png")
+    no-repeat center;
+}
+
+.play-audio,
+.pause-audio,
+.increase-audio,
+.decrease-audio {
+  background-color: #aaa;
+  background-size: 100%;
+  color: rgba(0, 0, 0, 0); /* Text is hidden */
+}
+
+.play-audio:hover {
+  background: url("http://i482.photobucket.com/albums/rr188/evanescenta/play_on.png")
+    no-repeat center;
+}
+
+.pause-audio:hover {
+  background: url("http://i482.photobucket.com/albums/rr188/evanescenta/pause_on.png")
+    no-repeat center;
+}
+
+.increase-audio:hover {
+  background: url("http://i482.photobucket.com/albums/rr188/evanescenta/vol_up_on.png")
+    no-repeat center;
+}
+
+.decrease-audio:hover {
+  background: url("http://i482.photobucket.com/albums/rr188/evanescenta/vol_down_on.png")
+    no-repeat center;
+}
+
+.play-audio:hover,
+.pause-audio:hover,
+.increase-audio:hover,
+.decrease-audio:hover {
+  background-color: #050505;
+  background-size: 100%;
+}
